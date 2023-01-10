@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Restaurante Ramallo - Contactanos</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../assets/images/logo_naranja.png" alt="logo_naranja" height="150" width="100"></a>
+        <nav class="navigation">
+            <ul class="links">
+                <li><a href="./galeria.html">Galeria</a></li>
+                <li><a href="./menu.html">Nuestro Menu</a></li>
+                <li><a style="color: crimson;" href="./contacto.html">Contactanos</a></li>
+                <li><a href="./login.html">Ingresa</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <h2>Dejanos tus datos para poder ingresar a nuestras reservas online o consultarnos hacerca de reserva para eventos y demas!</h2>
+            <form class="form-container">
+                <fieldset class="form-fieldset">
+                    <legend>Datos de Contato</legend>
+                        <br/>
+                            <label for="nombre">Nombre y Apellido</label>
+                            <input type="text" name="nombre" size=""/>
+                        <br><label for="documento">Numero de Documento</label>
+                            <input type="text" name="documento"/>
+                        <br/>
+                            <label for="mail"> Correo electronico</label>
+                            <input type="text" name="mail"/>
+                        <br/>
+                            <label for="celular">Numero Telefonico</label>
+                            <input type="text" name="celular"/>
+                        <br/>
+                    <div>Indique tipo de consulta:</div>
+                        <br/>
+                            <select name="consulta">
+                                <option value="reserva">Reserva</option>
+                                <option value="evento">Evento</option>
+                                <option value="otros">Otra consulta</option>
+                            </select>
+                        <br/>
+                        <br/>
+                            
+                    <div><a href="../paginas/condiciones.html">Terminos y condiciones</a></div>
+                        <br/>
+                    <input type="checkbox" name="acepto" value="Si" /> Acepto terminos y condiciones
+                        <br/>
+                        <br/>
+                        <br/>
+                        <input type="reset" value="Limpiar el formulario" />
+                        <br/>
+                        <br/>
+                    <input type="submit" value="Enviar formulario" />
+                </fielset>
+            </form>
+    </main>
+</body>
+    <footer  id="footer">
+        <ul class="footer">
+            <li class="ftlinks"><a href="https://www.facebook.com">Facebook</a></li>
+            <li class="ftlinks"><a href="https://www.instagram.com">Instagram</a></li>
+            <li class="ftlinks"><a href="https://www.twitter.com">Twitter</a></li>
+        </ul>
+        <p class="foottxt">Todos los derechos reservados</p>
+    </footer>
+</html>
